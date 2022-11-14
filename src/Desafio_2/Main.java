@@ -15,7 +15,7 @@ public class Main {
                     tableroString += " X ";
                 }
                 else {
-                    if(i==4 && a == 22)
+                    if(i==4 && a == 22 || i==3 && a== 17)
                     {
                         tableroString += (serie.get(i-1) + " ");
                     }
@@ -34,7 +34,7 @@ public class Main {
             }
             tableroString += "\n";
         }
-        System.out.println(letras[0] + "  " + letras[1] + "  " + letras[2] + "  " + letras[3] + "  " + letras[4]);
+        System.out.println(" "+letras[0] + "  " + letras[1] + "  " + letras[2] + "  " + letras[3] + "  " + letras[4]);
         System.out.println(tableroString);
     }
 }
