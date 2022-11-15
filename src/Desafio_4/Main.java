@@ -8,6 +8,6 @@ public class Main {
         int[] numerosElegidos = {1, 2, 3, 4, 5};
         Boleto boleto = new Boleto(numerosElegidos);
         int aciertos = sorteo.compararBoleto(boleto);
-        System.out.println("Aciertos: " + aciertos+ " Numero de boleto$: " + Arrays.toString(boleto.getNumeroElegido())+ " Numero de sorteo: " + Arrays.toString(sorteo.getNumerosSorteados()));
+        System.out.println("Aciertos: " + aciertos+ " Numero de boleto: " + Arrays.toString(boleto.getNumeroElegido())+ " Numero de sorteo: " + Arrays.toString(sorteo.getNumerosSorteados()));
     }
 }
